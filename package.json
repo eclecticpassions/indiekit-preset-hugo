@@ -1,29 +1,39 @@
 {
   "name": "@eclecticpassions/preset-hugo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom Hugo publication preset for Indiekit",
-  "keywords": [
-    "indiekit",
-    "indiekit-plugin",
-    "indieweb",
-    "micropub",
-    "jekyll"
-  ],
+  "type": "module",
+  "main": "index.js",
   "homepage": "https://getindiekit.com",
-  "author": {
+  "author": 
+    {
+      "name": "Paul Robert Lloyd",
+      "url": "https://paulrobertlloyd.com"
+    },
+  "contributors":[
+    {
     "name": "Naty S",
-    "url": "https://burgeonlab.com"
+     "url": "https://burgeonlab.com"
+  }],
+"files": [
+  "assets",
+  "lib",
+  "index.js"
+],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eclecticpassions/indiekit-preset-hugo.git"
   },
   "license": "MIT",
   "engines": {
     "node": ">=24.17.0"
   },
-   "repository": {
-    "type": "git",
-    "url": "https://github.com/eclecticpassions/indiekit-preset-hugo.git"
-  },
-  "type": "module",
-  "main": "index.js",
+    "keywords": [
+    "indiekit",
+    "indiekit-plugin",
+    "frontmatter",
+    "toml"
+  ],
   "dependencies": {
     "@iarna/toml": "^2.2.5",
     "camelcase-keys": "^10.0.2",
