@@ -6,7 +6,7 @@ const defaults = {
 };
 
 export default class HugoPreset {
-  name = "Hugo preset";
+  name = "Hugo Custom Preset";
   postTypes;
 
   constructor(options = {}) {
@@ -15,7 +15,7 @@ export default class HugoPreset {
 
   get info() {
     return {
-      name: "Hugo",
+      name: "Hugo Custom Unquoted", // <-- Indiekit reads this to display in your dashboard status
     };
   }
 
