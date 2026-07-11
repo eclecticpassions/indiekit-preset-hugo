@@ -1,6 +1,6 @@
 {
   "name": "@eclecticpassions/preset-hugo",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Custom Hugo publication preset for Indiekit",
   "keywords": [
     "indiekit",
@@ -16,7 +16,7 @@
   },
   "license": "MIT",
   "engines": {
-    "node": ">=24.17"
+    "node": ">=24.17.0"
   },
    "repository": {
     "type": "git",
