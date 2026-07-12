@@ -6,7 +6,7 @@ Forked from [@indiekit/preset-hugo](https://www.npmjs.com/package/@indiekit/pres
 - Modify the properties object mapping within getFrontMatter
 
 > [!important]
-> I asked a LLM to help me with the code. Please review before using in your setup.
+> I asked an LLM to help me with the code. Please review before using in your setup.
 
 ## Installation
 
