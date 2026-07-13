@@ -14,7 +14,7 @@ I personally wasn't able to use NPM's override feature for the exisiting Indieki
 
 1. Remove existing: `npm remove @indiekit/preset-hugo`
 2. Install with: `npm install github:eclecticpassions/indiekit-preset-hugo`
-3. Replace all existing configuration (e.g. `indiekit.config.js`) and `package.json`, from `@indiekit/preset-hugo` to `@eclecticpassions/preset-hugo`
+3. Replace all existing configuration (e.g. `indiekit.config.js`) and `package.json`, from `@indiekit/preset-hugo` to `@eclecticpassions/indiekit-preset-hugo`
 4. Remove and rebuild `rm -rf node_modules package-lock.json` and `npm install`
 
 See below for the README of the original preset-hugo plugin.
