@@ -5,30 +5,30 @@
   "type": "module",
   "main": "index.js",
   "homepage": "https://getindiekit.com",
-  "author": 
+  "author": {
+    "name": "Paul Robert Lloyd",
+    "url": "https://paulrobertlloyd.com"
+  },
+  "contributors": [
     {
-      "name": "Paul Robert Lloyd",
-      "url": "https://paulrobertlloyd.com"
-    },
-  "contributors":[
-    {
-    "name": "Naty S",
-     "url": "https://burgeonlab.com"
-  }],
-"files": [
-  "assets",
-  "lib",
-  "index.js"
-],
+      "name": "Naty S",
+      "url": "https://burgeonlab.com"
+    }
+  ],
+  "files": [
+    "assets",
+    "lib",
+    "index.js"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/eclecticpassions/indiekit-preset-hugo.git"
+    "url": "git+https://github.com/eclecticpassions/indiekit-preset-hugo.git"
   },
   "license": "MIT",
   "engines": {
     "node": ">=24.17.0"
   },
-    "keywords": [
+  "keywords": [
     "indiekit",
     "indiekit-plugin",
     "frontmatter",
@@ -40,7 +40,7 @@
     "plur": "^6.0.0",
     "yaml": "^2.9.0"
   },
-    "publishConfig": {
+  "publishConfig": {
     "access": "public"
   }
 }
