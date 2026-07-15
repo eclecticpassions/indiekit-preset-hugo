@@ -1,6 +1,6 @@
 {
   "name": "@eclecticpassions/indiekit-preset-hugo",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Custom Hugo publication preset for Indiekit",
   "type": "module",
   "main": "index.js",
@@ -37,7 +37,6 @@
   "dependencies": {
     "@iarna/toml": "^2.2.5",
     "camelcase-keys": "^10.0.2",
-    "luxon": "^3.7.2",
     "plur": "^6.0.0",
     "yaml": "^2.9.0"
   },
