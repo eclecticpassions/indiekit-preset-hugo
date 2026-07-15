@@ -15,7 +15,7 @@ export default class HugoPreset {
 
   get info() {
     return {
-      name: "Hugo Custom Unquoted", // <-- Indiekit reads this to display in your dashboard status
+      name: "Hugo Custom Unquoted",
     };
   }
 
