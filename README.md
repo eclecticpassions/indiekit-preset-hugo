@@ -45,6 +45,10 @@ I personally wasn't able to use [NPM's override](https://docs.npmjs.com/cli/v10/
 2. Install custom preset-hugo: `npm install github:eclecticpassions/indiekit-preset-hugo` or `npm install @eclecticpassions/indiekit-preset-hugo`
 3. Replace all existing configuration (e.g. in `indiekit.config.js`) and `package.json`, from `@indiekit/preset-hugo` to `@eclecticpassions/indiekit-preset-hugo`
 
+## Pending
+
+- Currently, `lib/post-template.js` is set up to convert dates to Asia/Hong_Kong time zone / UTC+8. I will add a config option in the future for others to set it in their Indiekit config file under the plugin settings.
+
 ## Resources
 
 - [Hugo dates](https://gohugo.io/methods/page/date/)
